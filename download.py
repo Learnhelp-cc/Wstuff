@@ -2,9 +2,9 @@ from flask import Flask, redirect
 
 app = Flask(__name__)
 
-# Replace these URLs with the actual raw GitHub URLs of your files
+# File mapping with the GitHub URL you provided
 file_mapping = {
-    '0000001': 'https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/main/test.txt',
+    '0000001': 'https://raw.githubusercontent.com/Learnhelp-cc/Wstuff/cce96fd3c1fea62bec2023c7d67c072c0f52f26e/hostedfiles/test.txt',
     # Add more mappings as needed
 }
 
