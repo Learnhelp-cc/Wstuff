@@ -2,10 +2,10 @@ from flask import Flask, redirect
 
 app = Flask(__name__)
 
-# File mapping with the GitHub URL you provided
+# File mapping with the GitHub URLs you provided
 file_mapping = {
     '0000001': 'https://raw.githubusercontent.com/Learnhelp-cc/Wstuff/cce96fd3c1fea62bec2023c7d67c072c0f52f26e/hostedfiles/test.txt',
-    # Add more mappings as needed
+    '0000002': 'https://raw.githubusercontent.com/Learnhelp-cc/Wstuff/7f83c17e4966aaf772aee25e25a4437b6961bca1/P-Diddy%20with%20fur%20%23animation%20%23alvinandthechipmunks%20%23pdiddy%20%23diddy.mp3',
 }
 
 @app.route('/<file_id>')
